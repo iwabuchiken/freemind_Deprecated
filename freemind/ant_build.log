@@ -1,0 +1,162 @@
+iwabuchiken@ubuntu:freemind$ ant dist
+Buildfile: /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/build.xml
+
+init:
+     [echo] FreeMind Version = 1.0.0_Beta_9, build 0.
+
+xmlbind.checkStatusOfGeneration:
+
+gen:
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/binding
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/binding/src
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/binding/run
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/binding/classes
+    [javac] Compiling 1 source file to /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/binding/run
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.4と一緒に設定されていません
+    [javac] 警告1個
+   [delete] Deleting directory /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/binding/run
+    [javac] Compiling 123 source files to /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/binding/classes
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.4と一緒に設定されていません
+    [javac] 警告1個
+     [echo] Running binding compiler...
+      [jar] Building jar: /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/lib/bindings.jar
+   [delete] Deleting directory /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/binding
+
+build:
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+    [javac] Compiling 367 source files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.4と一緒に設定されていません
+    [javac] 注意:一部の入力ファイルは推奨されないAPIを使用またはオーバーライドしています。
+    [javac] 注意:詳細は、-Xlint:deprecationオプションを指定して再コンパイルしてください。
+    [javac] 警告1個
+   [delete] Deleting: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes/freemind/main/FreeMindStarter.class
+    [javac] Compiling 1 source file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.3と一緒に設定されていません
+    [javac] 警告1個
+
+build:
+     [echo] Built in Plugins build on path /home/iwabuchiken/ws/ws_eclipse/freemind/freemind
+    [javac] Compiling 52 source files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.4と一緒に設定されていません
+    [javac] 注意:一部の入力ファイルは推奨されないAPIを使用またはオーバーライドしています。
+    [javac] 注意:詳細は、-Xlint:deprecationオプションを指定して再コンパイルしてください。
+    [javac] 警告1個
+
+build:
+
+build:
+     [echo] Plugin plugins/help.
+    [javac] Compiling 1 source file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.4と一緒に設定されていません
+    [javac] 警告1個
+
+build:
+     [echo] Plugin plugins/map.
+    [javac] Compiling 14 source files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.4と一緒に設定されていません
+    [javac] 警告1個
+
+build:
+     [echo] Plugin plugins/script.
+    [javac] Compiling 6 source files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.4と一緒に設定されていません
+    [javac] 注意:/home/iwabuchiken/ws/ws_eclipse/freemind/freemind/plugins/script/ScriptingSecurityManager.javaは推奨されないAPIを使用またはオーバーライドしています。
+    [javac] 注意:詳細は、-Xlint:deprecationオプションを指定して再コンパイルしてください。
+    [javac] 警告1個
+
+build:
+     [echo] Plugin plugins/collaboration/socket.
+    [javac] Compiling 9 source files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.4と一緒に設定されていません
+    [javac] 警告1個
+
+build:
+     [echo] Plugin plugins/svg.
+    [javac] Compiling 5 source files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+    [javac] 警告:[options] ブートストラップ・クラスパスが-source 1.4と一緒に設定されていません
+    [javac] 警告1個
+
+jar:
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/lib
+      [jar] Building jar: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/lib/freemind.jar
+   [delete] Deleting: /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/manifest1598507198
+
+jar:
+     [copy] Copying 57 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+      [jar] Updating jar: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/lib/freemind.jar
+
+browser:
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/browser
+      [jar] Building jar: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/browser/freemindbrowser.jar
+     [copy] Copying 4 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/browser
+
+dist:
+     [copy] Copying 8 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/doc
+     [copy] Copying 23 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/doc
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/accessories
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [copy] Copying 46 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/accessories
+     [copy] Copying 11 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/lib
+
+dist:
+
+dist:
+
+dist:
+     [echo] Plugin plugins/help
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/help
+     [copy] Copying 57 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+      [jar] Building jar: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/help/help_plugin.jar
+     [echo] Copy /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/plugins/FreemindHelp.xml to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [echo] Copy plugins/help/jhall.jar
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist
+
+dist:
+     [echo] Plugin plugins/map
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/map
+     [copy] Copying 2 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+      [jar] Building jar: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/map/map_plugin.jar
+     [echo] Copy /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/plugins/MapViewer.xml to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [echo] Copy plugins/map/JMapViewer.jar
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist
+
+dist:
+     [echo] Plugin plugins/script
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/script
+     [copy] Copying 2 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+      [jar] Building jar: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/script/scripting_plugin.jar
+     [echo] Copy /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/plugins/ScriptingEngine.xml to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [echo] Copy plugins/script/*.jar
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist
+
+dist:
+     [echo] Plugin plugins/collaboration/socket
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/collaboration/socket
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+      [jar] Building jar: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/collaboration/socket/socket_plugin.jar
+     [echo] Copy /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/plugins/CollaborationSocket.xml to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [echo] Copy plugins/collaboration/socket/*.jar
+
+dist:
+     [echo] Plugin plugins/svg
+    [mkdir] Created dir: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/svg
+     [copy] Copying 2 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/classes
+      [jar] Building jar: /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins/svg/svg_plugin.jar
+     [echo] Copy /home/iwabuchiken/ws/ws_eclipse/freemind/freemind/plugins/ExportSvg.xml to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [copy] Copying 1 file to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist/plugins
+     [echo] Copy plugins/svg/*.jar
+     [copy] Copying 21 files to /home/iwabuchiken/ws/ws_eclipse/freemind/bin/dist
+
+dist_icon:
+
+dist_macos:
+
+BUILD SUCCESSFUL
+Total time: 35 seconds
+
